@@ -10,6 +10,8 @@ the user enters the plaintext and the keyword, and the program reports the ciphe
 
 #include <iostream>
 #include <string>
+#include <tests.cpp>
+
 using namespace std;
 string encryptVigenere(string str, string key);
 
