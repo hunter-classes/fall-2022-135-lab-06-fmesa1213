@@ -10,6 +10,7 @@ I wrote a program that uses the above functions to demonstrate encryption and de
 
 #include<iostream>
 #include<string>
+#include <tests.cpp>
 using namespace std;
 string encryptCaesar(string plainText, int rShift);
 string encryptVigenere(string plainText, string keyword);
